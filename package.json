@@ -1,0 +1,17 @@
+{
+  "author": "Juan Carlos Estibariz",
+  "name": "sasl",
+  "description": "A wrapper around gsasl providing both client and server suport",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jcestibariz/node-sasl.git"
+  },
+  "main": "./sasl",
+  "engines": {
+    "node": "v0.4.7"
+  },
+  "scripts": {
+    "install": "node-waf configure build; ln -s build/default/sasl.node ."
+  }
+}
